@@ -3,12 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" width="device-width, initial-scale=1.0">
-		<meta name="description" content="{{ page.description }}">
-		<meta name="author" content="Jonathan McGlone">
+		<meta name="description" content="Anas Iqbal is a Software Engineer, Gameplay Developer living and working in Pakistan.">
+		<meta name="author" content="Anas Iqbal">
 
-		<title>{{ page.title }} | Jonathan McGlone | Librarian, Front-End Developer, Digital Publisher, Project Manager, Music Enthusiast, Web Noodler.</title>		
+		<title>Anas Iqbal | Software Engineer, Gameplay Developer.</title>		
 
-		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/jumbotron-narrow.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 	</head>
@@ -17,10 +17,19 @@
 			<!-- header -->
 			<div class="header">
 				<ul class="nav nav-pills pull-right">
-					<li class=".cv"><a href="cv" title="CV">CV</a></li>
-					<li class=".projects"><a href="projects" title="Projects">Projects</a></li>
-					<li class=".notes"><a href="notes" title="Notes">Notes</a></li>
-					<li class=".contact"><a href="contact" title="Contact">Contact</a></li>
+					<li><a href="cv" title="CV">CV</a></li>
+					
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span>
+                        </a>
+						<ul class="dropdown-menu">
+							<li><a href="projects/personalProjects" title="Personal Projects">Personal Projects</a></li>
+							<li><a href="projects/professionalProjects" title="Professional Projects">Professional Projects</a></li>
+						</ul>
+					</li>
+					
+                    <li><a href="posts" title="Posts">Posts</a></li>
+					<li><a href="contact" title="Contact">Contact</a></li>
 				</ul>
 				<h3 class="text-muted"><a href="/">Anas Iqbal</a></h3>
 			</div>
@@ -29,16 +38,16 @@
 			<!-- Content -->
 			<div class="row marketing">
 				<div class="col-sm-4">
-					<img class="img-circle avatar" alt="Anas Iqbal" src="img/AI-Icon.png">
+					<img class="img-rounded" alt="Anas Iqbal" src="img/AI-Icon.png" width="200" height="200">
 				</div>
 				<div class="col-sm-8">
-					<p class="lead">Hi, I'm <span itemprop="name">Jonathan McGlone</span> and I make things on the web for academic libraries and scholarly publishers.</p>
-					<p>I get by as a librarian, front end developer, UI designer, digital publisher, managing editor and music enthusiast living in Plymouth, Michigan and working for <a href="http://www.publishing.umich.edu">Michigan Publishing</a>.</p>
-					<p>I'm also available for hire as a freelance web developer, designer, or consultant. <a href="contact">Drop me a line</a> about your project if you're interested in working with me.</p>
+					<p class="lead">Hi, I'm Anas Iqbal.</p>
+					<p>I get by as a Software Engineer, Gameplay Programmer living in Islamabad, Pakistan and working for <a href="http://www.binexsolutions.com/">Binex Solutions</a>.</p>
+					<p>To be replaced with something about my self.</p>
 				</div>
 			</div>
 			<!-- /Content -->
-
+			
 			<!-- footer -->
 			<div class="footer">
 				<div class="row">
@@ -51,15 +60,10 @@
 				</div>
 			</div>
 			<!-- /footer -->
-		
+            
 		</div> <!-- /container -->
-	
-	
-		<script src="http://code.jquery.com/jquery.js">
-		</script><script src="/js/bootstrap.min.js"></script>
-		<script src="/js/library.js"></script>
-		<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-	
-	</body>
-
+        
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
 </html>
