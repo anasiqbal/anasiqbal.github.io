@@ -3,13 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" width="device-width, initial-scale=1.0">
-		<meta name="description" content="{{ page.description }}">
-		<meta name="author" content="Jonathan McGlone">
+		<meta name="description" content="Anas Iqbal is a Software Engineer, Gameplay Developer living and working in Pakistan.">
+		<meta name="author" content="Anas Iqbal">
 
-		<title>{{ page.title }} | Jonathan McGlone | Librarian, Front-End Developer, Digital Publisher, Project Manager, Music Enthusiast, Web Noodler.</title>		
+		<title>Anas Iqbal | Software Engineer, Gameplay Developer.</title>		
 
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/jumbotron-narrow.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
@@ -17,10 +16,18 @@
 			<!-- header -->
 			<div class="header">
 				<ul class="nav nav-pills pull-right">
-					<li class=".cv"><a href="cv" title="CV">CV</a></li>
-					<li class=".projects"><a href="projects" title="Projects">Projects</a></li>
-					<li class=".notes"><a href="notes" title="Notes">Notes</a></li>
-					<li class=".contact"><a href="contact" title="Contact">Contact</a></li>
+					<li><a href="cv" title="CV">CV</a></li>
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span>
+                        </a>
+						<ul class="dropdown-menu">
+							<li><a href="projects/personalProjects" title="Personal Projects">Personal Projects</a></li>
+							<li><a href="projects/professionalProjects" title="Professional Projects">Professional Projects</a></li>
+						</ul>
+					</li>
+					
+                    <li><a href="posts" title="Posts">Posts</a></li>
+					<li><a href="contact" title="Contact">Contact</a></li>
 				</ul>
 				<h3 class="text-muted"><a href="/">Anas Iqbal</a></h3>
 			</div>
@@ -28,8 +35,8 @@
 
 			<!-- Content -->
 			<div class="error">
-				<h1>404 Error hmmmm!</h1>
-				<p class="lead">Hey, seems like you are trying to access something that doesn't exist, or located somewhere else. Try <a href="/" title="Anas Iqbal homepage">going back to the homepage</a>, or use the navigation menu above to find what you're looking for.</p>
+				<h1>404 Error, hmmm!</h1>
+				<p class="lead">Hey, sorry but it seems like you are trying to access something that doesn't exist, or is located somewhere else. Try <a href="/" title="Homepage">going back to the homepage</a>, or use the navigation menu above to find what you're looking for.</p>
 			</div>
 			<!-- /Content -->
 
@@ -47,13 +54,9 @@
 			<!-- /footer -->
 		
 		</div> <!-- /container -->
-	
-	
-		<script src="http://code.jquery.com/jquery.js">
-		</script><script src="/js/bootstrap.min.js"></script>
-		<script src="/js/library.js"></script>
-		<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-	
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 	</body>
 
 </html>
