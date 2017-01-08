@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<ProfessionalProjects>
+		<Project name="Color Quest Mania" appstore="https://itunes.apple.com/pk/app/id1045453171" playstore="">
+			<Tags>Unity 3D, C#, iOS, Unity-UI, Mesh Generation</Tags>
+			<Disclaimer>Software Engineer at Binex Solutions (pvt) ltd.</Disclaimer>
+			<Description>
+				<ul>
+					<li>Solely developed prototype of the game using Unity3D and C#.</li>
+					<li>Designed and implemented a robust base code for gameplay (i.e mesh generation, scoring and death mechanism, levels system)</li>
+					<li>Used Unity’s mesh generation API to generate pie chart styled coloured meshes.</li>
+					<li>Implemented wireframe UI</li>
+					<li>Integrated multiple plugins i.e. Flurry Analytics, Chartboost Ads, Android/ iOS In-Apps.</li>
+				</ul>
+			</Description>
+			<Images>
+				<Image name="Color Quest Mania - Image 01" path="/img/CQM/01.jpeg" />
+				<Image name="Color Quest Mania - Image 02" path="/img/CQM/02.jpeg" />
+				<Image name="Color Quest Mania - Image 03" path="/img/CQM/03.jpeg" />
+				<Image name="Color Quest Mania - Image 04" path="/img/CQM/04.jpeg" />
+			</Images>
+		</Project>
+		<!--##########-->
+		<Project name="A Circles Adventure" appstore="https://itunes.apple.com/pk/app/id992769295" playstore="">
+			<Tags>Unity 3D, C#, iOS, Unity-UI</Tags>
+			<Disclaimer>Software Engineer at Binex Solutions (pvt) ltd.</Disclaimer>
+			<Description>
+				<ul>
+					<li>Worked on the prototype of the game using Unity3D and C#.</li>
+					<li>Designed and implemented a robust base code for gameplay. Including character control, line generation, scoring and coin collection, shop and customization system.</li>
+					<li>Implemented wireframe UI</li>
+					<li>Integrated multiple plugins i.e. Flurry Analytics, Chartboost Ads, Android/ iOS In-Apps.</li>
+				</ul>
+			</Description>
+			<Images>
+				<Image name="A Circles Adventure - Image 01" path="/img/ACA/01.jpeg" />
+				<Image name="A Circles Adventure - Image 02" path="/img/ACA/02.jpeg" />
+				<Image name="A Circles Adventure - Image 03" path="/img/ACA/03.jpeg" />
+				<Image name="A Circles Adventure - Image 04" path="/img/ACA/04.jpeg" />
+			</Images>
+		</Project>
+		<!--##########-->
+		<Project name="ECO Runner 3D" appstore="https://itunes.apple.com/pk/app/id1099165416" playstore="">
+			<Tags>Unity 3D, C#, iOS, Unity-UI</Tags>
+			<Disclaimer>Software Engineer at Binex Solutions (pvt) ltd.</Disclaimer>
+			<Description>
+				<ul>
+					<li>Worked in a small team to quickly develop the game using Unity 3D and C# on a very tight timeline.</li>
+					<li>Sole UI programmer (menus, popups, menu animations).</li>
+					<li>Worked on multiple gameplay features (Character movement and animation, hidden objects gameplay, camera control, environment spawning).</li>
+				</ul>
+			</Description>
+			<Images>
+				<Image name="ECO Runner 3D - Image 01" path="/img/ECOR3D/01.jpeg" />
+				<Image name="ECO Runner 3D - Image 02" path="/img/ECOR3D/02.jpeg" />
+				<Image name="ECO Runner 3D - Image 03" path="/img/ECOR3D/03.jpeg" />
+				<Image name="ECO Runner 3D - Image 04" path="/img/ECOR3D/04.jpeg" />
+				<Image name="ECO Runner 3D - Image 05" path="/img/ECOR3D/05.jpeg" />
+			</Images>
+		</Project>
+		<!--##########-->
+		<Project name="One Tap Fun" appstore="https://itunes.apple.com/pk/app/id1112404845" playstore="">
+			<Tags>Unity 3D, C#, iOS</Tags>
+			<Disclaimer>Software Engineer at Binex Solutions (pvt) ltd.</Disclaimer>
+			<Description>
+				<ul>
+					<li>Started working on top of a prototype developed by a fellow programmer in Unity3D and C#.</li>
+					<li>Sole UI programmer (Menus, Popups).</li>
+					<li>Worked closely with the game designer implementing and improving gameplay (Character controller, camera controller, power-ups, obstacles, puzzles).</li>
+					<li>Integrated several plugins i.e Flurry Analytics, iOS In-Apps, Chartboost and Unity Ads integration, social sharing feature.</li>
+				</ul>
+			</Description>
+			<Images>
+				<Image name="One Tap Fun - Image 01" path="/img/PGM/01.jpeg" />
+				<Image name="One Tap Fun - Image 02" path="/img/PGM/02.jpeg" />
+				<Image name="One Tap Fun - Image 03" path="/img/PGM/03.jpeg" />
+				<Image name="One Tap Fun - Image 04" path="/img/PGM/04.jpeg" />
+				<Image name="One Tap Fun - Image 05" path="/img/PGM/05.jpeg" />
+			</Images>
+		</Project>
+		<!--##########-->
+		<Project name="What's Changed?" appstore="https://itunes.apple.com/tr/app/whats-changed-skill-builder/id943362434?mt=8" playstore="https://play.google.com/store/apps/details?id=com.readablenglish.WhatsChanged">
+			<Tags>Unity 3D, C#, NGUI, Soap Web-Service, iOS, Android</Tags>
+			<Disclaimer>Software Engineer at Binex Solutions (pvt) ltd.</Disclaimer>
+			<Description>
+				<ul>
+					<li>Worked in a small team and developed the application using Unity 3D and C#.</li>
+					<li>Sole UI programmer for HUD, Level and Sub-Level selection screen and Progress screen.</li>
+					<li>Implemented complete gameplay. The game had a data driven gameplay and result based level progression.</li>
+					<li>Integrated SOAP web-service developed by the another team working offshore in Australia.</li>
+				</ul>
+			</Description>
+			<Images>
+				<Image name="What's Changed? - Image 01" path="/img/REWC/01.jpeg" />
+				<Image name="What's Changed? - Image 02" path="/img/REWC/02.jpeg" />
+				<Image name="What's Changed? - Image 03" path="/img/REWC/03.jpeg" />
+				<Image name="What's Changed? - Image 04" path="/img/REWC/04.jpeg" />
+				<Image name="What's Changed? - Image 05" path="/img/REWC/05.jpeg" />
+			</Images>
+		</Project>
+		<!--##########-->
+		<Project name="Read It, Speak It, Know It" appstore="https://itunes.apple.com/tr/app/id919855900" playstore="https://play.google.com/store/apps/details?id=com.readablenglish.dictionary">
+			<Tags>iOS, Obj-C, Swift, Soap Web-Service, Coredata</Tags>
+			<Disclaimer>Software Engineer at Binex Solutions (pvt) ltd.</Disclaimer>
+			<Description>
+				<ul>
+					<li>Worked in a small team to develop the application using Native Development Tools i.e XCode for iOS, Eclipse for Android.</li>
+					<li>Worked along side an offshore team which was working on the web site and web-service side of the main project.</li>
+					<li>At first developed the app using Objective-C (swift was not released yet). Later re-developed and re-designed the app using Swift. (Did not worked on Android version)</li>
+					<li>Sole UI programmer for complete iOS version of the application.</li>
+					<li>Integrated core data with SqLite database.</li>
+					<li>Integrated SOAP web-service developed by the another team working offshore in Australia.</li>
+				</ul>
+			</Description>
+			<Images>
+				<Image name="Read It, Speak It, Know It - Image 01" path="/img/RISIKI/01.jpeg" />
+				<Image name="Read It, Speak It, Know It - Image 02" path="/img/RISIKI/02.jpeg" />
+				<Image name="Read It, Speak It, Know It - Image 03" path="/img/RISIKI/03.jpeg" />
+				<Image name="Read It, Speak It, Know It - Image 04" path="/img/RISIKI/04.jpeg" />
+				<Image name="Read It, Speak It, Know It - Image 05" path="/img/RISIKI/05.jpeg" />
+			</Images>
+		</Project>
+		<!--##########-->
+		<Project name="Readable English - Choose or Lose" appstore="https://itunes.apple.com/tr/app/id922404744" playstore="https://play.google.com/store/apps/details?id=com.readablenglish.ChooseOrLose">
+			<Tags>Unity 3D, C#, NGUI, Soap Web-Service, iOS, Android</Tags>
+			<Disclaimer>Software Engineer at Binex Solutions (pvt) ltd.</Disclaimer>
+			<Description>
+				<ul>
+					<li>Implement some minor changes in UI.</li>
+					<li>Fixed bugs (both major and minor) in gameplay developed by a former developer.</li>
+					<li>Performed several Plugin Integrations (i.e. Flurry Analytics, Android/ iOS In-Apps).</li>
+				</ul>
+			</Description>
+			<Images>
+				<Image name="Choose Or Lose - Image 01" path="/img/RECOL/01.jpeg" />
+				<Image name="Choose Or Lose - Image 02" path="/img/RECOL/02.jpeg" />
+				<Image name="Choose Or Lose - Image 03" path="/img/RECOL/03.jpeg" />
+			</Images>
+		</Project>
+		<!--##########-->
+	</ProfessionalProjects>

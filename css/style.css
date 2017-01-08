@@ -5,13 +5,22 @@ body {
 	padding-top: 20px;
 	padding-bottom: 40px;
 	font-family: 'Merriweather', Georgia, Times;
-	font-size: 18px;
+	font-size: 16px;
 	text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 700;}
 
-blockquote p { font-size: 16px; line-height: 1.6em; }
+/*
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+}
+*/
+small blockquote { font-size: 12px; border-left: 5px solid #000; padding: 10px 10px; }
+blockquote { font-size: 16px; border-left: 5px solid #ddd; color: #777; margin: 10px 0; padding: 10px 10px;}
 
 /* Masthead */
 .header, .footer, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
@@ -33,10 +42,20 @@ img.avatar { margin: auto; }
 /* Content */
 .content { margin: 40px 0; }
 .content p { line-height: 25px; }
-.content p.lead { line-height: 40px; font-size: 30px; }
-.content p.lead span.greeting { line-height: 100px; font-size: 90px; }
-.content p.lead span.name { line-height: 40px; font-size: 40px; }
-.content p.tagline { text-align: center; line-height: 30px; font-size: 21px; }
+.content p.lead { line-height: 30px; font-size: 26px; }
+.content p.lead span.greeting { line-height: 80px; font-size: 70px; }
+.content p.lead span.name { line-height: 40px; font-size: 36px; }
+.content p.tagline { text-align: center; line-height: 30px; font-size: 22px; }
+
+.carousel-settings {
+	min-width: 300px;
+	max-width: 300px;
+	margin: 10px 50px 10px 50px;
+}
+.fixed-height {
+    max-height: 400px;
+	margin: auto;
+}
 
 /* Notes */
 .notelist { width: 600px; margin: 0 auto; }

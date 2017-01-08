@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<PersonalProjects>
+		<Project name="A* Pathfinding" appstore="" playstore="">
+			<Tags>Unity 3D, C#, A* Pathfinding</Tags>
+			<Description>
+				<ul>
+					<li>Easy to use pathfinding system for Unity 3D.</li>
+					<li>Working smoothly for multiple AI character.</li>
+					<li>Using square grids to perform pathfinding.</li>
+					<li>Supports multiple terrain types and costs.</li>
+				</ul>
+			</Description>
+		</Project>
+		<!--##########-->
+	</PersonalProjects>
