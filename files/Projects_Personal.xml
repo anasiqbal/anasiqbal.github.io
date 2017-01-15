@@ -10,6 +10,10 @@
 					<li>Supports multiple terrain types and costs.</li>
 				</ul>
 			</Description>
+			<Videos>
+				<Video name="Demo 01" link="https://player.vimeo.com/video/182279899" />
+				<Video name="Demo 02" link="https://player.vimeo.com/video/182279900" />
+			</Videos>
 		</Project>
 		<!--##########-->
 	</PersonalProjects>

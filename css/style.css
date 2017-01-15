@@ -56,6 +56,9 @@ img.avatar { margin: auto; }
     max-height: 400px;
 	margin: auto;
 }
+.video {
+	margin: 10px 20px 10px 0;
+}
 
 /* Notes */
 .notelist { width: 600px; margin: 0 auto; }
