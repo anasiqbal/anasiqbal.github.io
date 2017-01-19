@@ -1,43 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-body {
-	padding-top: 20px;
-	padding-bottom: 40px;
-	font-family: 'Merriweather', Georgia, Times;
-	font-size: 16px;
-	text-align: justify;
-}
+body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Georgia, Times; font-size: 16px; text-align: justify; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 700;}
 
-/*
-blockquote {
-  padding: 10px 20px;
-  margin: 0 0 20px;
-  font-size: 17.5px;
-  border-left: 5px solid #eee;
-}
-*/
 small blockquote { font-size: 12px; border-left: 5px solid #000; padding: 10px 10px; }
 blockquote { font-size: 16px; border-left: 5px solid #ddd; color: #777; margin: 10px 0; padding: 10px 10px;}
+blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* Masthead */
+.header h3 { padding-bottom: 30px; }
 .header, .footer, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
-.header { border-bottom: 2px solid #e5e5e5; }
-.header h3 { margin-top: 0; margin-bottom: 0; line-height: 40px; padding-bottom: 24px; }
-.footer { padding-top: 19px; color: #777; border-top: 2px solid #e5e5e5; }
+.header .nav {
+	text-align: center;
+}
 
 /* Navigation */
 h3.text-muted a {text-decoration: none; color: #999999; }
 h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 
-img.avatar { margin: auto; }
+img.avatar { margin-bottom: 30px; }
 
 /* Custom container */
 .container {  max-width: 70%; margin: auto; }
 .container > hr { margin: 30px 0; }
-.container > hr.footer { margin-bottom: 15px; }
+.container > hr.footer {margin-bottom: 15px; }
 
 /* Content */
 .content { margin: 40px 0; }
@@ -59,6 +47,16 @@ img.avatar { margin: auto; }
 .video {
 	margin: 10px 20px 10px 0;
 }
+
+/* E-Mail */
+.obfuscate { unicode-bidi: bidi-override; direction: rtl; }
+
+/* Jumbotron */     
+.jumbotron { margin: 80px 0; }
+.jumbotron h1 { font-size: 72px; line-height: 1; }
+.jumbotron .btn { font-size: 21px; padding: 14px 24px; }
+.marketing p { line-height: 25px; }
+.marketing p.lead { line-height: 30px; }
 
 /* Notes */
 .notelist { width: 600px; margin: 0 auto; }
@@ -83,7 +81,7 @@ ul.swatch li:first-child { webkit-border-top-left-radius: 9px; -webkit-border-bo
 .clear { clear: both; height: 20px; }
 
 /* CV */
-.cv { line-height: 23px; width: 90%; margin: 0 auto;}
+.cv {line-height: 23px; width: 90%; margin: 0 auto;}
 .cv li { line-height: 23px; }
 .cv h2 { font-size: 26.5px; }
 .cv h1 { font-size: 32.5px; }
