@@ -13,15 +13,28 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-author: Anas Iqbal
-title: Anas Iqbal | Software Engineer, Gameplay Developer
-email: anasiqbal@outlook.com
-description: > # this means to ignore newlines until "baseurl:"
-  Anas Iqbal is a Software Engineer, Gameplay Developer living and working in Pakistan.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://anasiqbal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ianasiqbal
-github_username:  anasiqbal
+title: Anas Iqbal
+designation: Software Engineer
+description: The portfolio of Software Engineer/ Gameplay Programmer Anas Iqbal, living and working in Pakistan.
+bio: >
+  Software Engineer, Gameplay Programmer<br>Living in Islamabad, Pakistan. Currently I'm working at <a href="http://www.binexsolutions.com/"><u>Binex Solutions</u></a> on some mobile games and any other task that needs to be done. I graduated in <b>2014</b> from <a href="http://www.nu.edu.pk/"><u><abbr title="National University of Computer and Emerging Sciences">NUCES</abbr>, Islamabad, Pakistan</u></a>; with a degree in <b>Computer Science</b>. I specialize in gameplay programming but I am comfortable and enjoy working on any problem placed in front of me.
+url: "https://anasiqbal.github.io"
+
+# Contact info
+phone:				"+923415188021"
+email:				anasiqbal@outlook.com
+twitter_name:		ianasiqbal
+twitter:			http://www.twitter.com/ianasiqbal
+linkedin_name:		in/anasiqbal55
+linkedin:			https://www.linkedin.com/in/anasiqbal55
+github_name:		anasiqbal
+github_url:			https://github.com/anasiqbal
+stackoverflow_name:	1849539/anas-iqbal
+stackoverflow:		http://stackoverflow.com/users/1849539/anas-iqbal
+steam:				anas_iqbal
+
+# Plugins
+discus_shortname:	anasiqbal
 
 # Build settings
 markdown: kramdown

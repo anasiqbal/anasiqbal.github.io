@@ -1,21 +1,67 @@
 ---
 layout: default
-title: Home
-cv: passive
-personalprojects: passive
-professionalprojects: passive
-posts: passive
-contact: passive
+title:	"about"
 ---
 
-<div class="row content">
-	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-		<img class="img-rounded" alt="Anas Iqbal" src="/img/AI-Icon.png">
-		<p class="tagline">Self-motivated<br>Passionate<br>Game Programmer</p>
+
+<div class="row">
+	<div class="small-12 medium-7 large-7 columns">
+		<!-- About me section -->
+		<h2>Hi, I am Anas Iqbal and I make games for mobile platforms.</h2>
+		<p>
+			{{ site.bio }}
+			<br>
+			I'd love to chat about job opportunities, projects I've worked on, video games and whatever is on your mind.
+		</p>
+		
+		<blockquote>
+			&ldquo;Nothing is more fatiguing as the eternal hanging on of an uncompleted task.&rdquo;
+			<cite>William James</cite>
+		</blockquote>
+		
+		<!-- Skills section -->
+		<h3>Skills</h3>
+		<ul>
+			<li><strong>Languages:</strong> HTML, CSS, C#, Objective-C, Swift</li>
+			<li><strong>Platforms:</strong> iOS, Android, Facebook Apps, Web-GL</li>
+			<li><strong>Applications:</strong> Unity 3D, XCode, Eclipse, Visual Studio, Adobe Photoshop</li>
+			<li><strong>Others:</strong> Unity UI, Unity mecanim animations, Basic shader scripting, Webservices integration, Plugin integration, Component based scripting</li>
+		</ul>
+		
+		<!-- Work experience section -->
+		<h3>Work Experience</h3>
+		<ul>
+			<li><strong>Software Engineer</strong>, Binex Solutions (Pvt.) Ltd.<br>June 2014 ~ Present
+				<ul>
+					<li>Helped with time estimation on multiple projects.</li>
+					<li>Developed multiple concept prototypes with robust code componenets to be used across multiple projects.</li>
+					<li>Developed complete apps, implementing gameplay, UI, animations, In-Apps, backend sync, rewards and achievements system, integrated plugin (e.g. Ads, Analytics).</li>
+				</ul>
+			</li>
+		</ul>
+		
+		<!-- Education section -->
+		<h3>Education</h3>
+		<ul>
+			<li><strong>BS Computer Science</strong>, <abbr title="National University of Computer and Emerging Sciences">NUCES</abbr>, Islamabad, Pakistan<br>August 2010 ~ June 2014</li>
+		</ul>
+		
 	</div>
-	<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-		<p class="lead"><span class="greeting">Hi,</span> I'm <span class="name">Anas Iqbal</span> and I make games for mobile platforms.</p>
-		<p>I get by as a Software Engineer, Gameplay Programmer living in Islamabad, Pakistan. Here you can view my <a href="/cv">resume</a>, <a href="/projects/professionalprojects">professional projects</a> and some <a href="/projects/personalprojects">fun stuff</a> I do in my free time.</p> <p>Currently I'm working at <a href="http://www.binexsolutions.com/">Binex Solutions</a> on some mobile games and any other task that needs to be done. I graduated in <b>2014</b> from <a href="http://www.nu.edu.pk/"><abbr title="National University of Computer and Emerging Sciences">NUCES</abbr>, Islamabad, Pakistan</a>; with a degree of <b>Computer Science</b>. I specialize in gameplay programming but I am comfortable and enjoy working on any problem placed in front of me.</p>
-		<p>I'd love to <a href="mailto:anasiqbal@outlook.com">chat</a> about job opportunities (remote and on-site), projects I've worked on, video games and whatever is on your mind.</p>
+	<div class="small-12 medium-5 large-5 columns">
+		<p>
+			<img src="/assets/images/about-photo.jpeg" alt="{{ site.title }}" />
+		</p>
+		<div class="lined-list">
+			<ul>
+				<li><strong>Location:</strong> Islamabad, Pakistan</li>
+				<li><strong>Phone:</strong> <a href="tel:{{ site.phone }}">{{ site.phone }}</a></li>
+				<li><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+				<li><strong>R&eacute;sum&eacute;:</strong> <a href="/assets/files/AI_Resume_v2.pdf">resume.pdf</a></li>
+				<li><strong>LinkedIn:</strong> <a href="{{ site.linkedin }}" target="_blank">{{ site.linkedin_name }}</a></li>
+				<li><strong>Github:</strong> <a href="{{ site.github_url }}" target="_blank">{{ site.github_name }}</a></li>
+				<li><strong>Stackoverflow:</strong> <a href="{{ site.stackoverflow }}" target="_blank">{{ site.stackoverflow_name }}</a></li>
+				<li><strong>Twitter:</strong> <a href="{{ site.twitter }}" target="_blank">{{ site.twitter_name }}</a></li>
+			</ul>
+		</div>
 	</div>
 </div>
