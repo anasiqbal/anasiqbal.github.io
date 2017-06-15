@@ -5,7 +5,8 @@ logo:			"A*/icon.jpg"
 description:	"This is temp description."
 role:			"--"
 organization:	"--"
-personal:	true
+github:			"https://github.com/anasiqbal/Simple-A-Pathfinding"
+personal:		true
 videos:
 - https://player.vimeo.com/video/182279899?color=ffffff&portrait=0
 - https://player.vimeo.com/video/182279900?color=ffffff&portrait=0

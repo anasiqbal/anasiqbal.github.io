@@ -33,8 +33,8 @@
 							{% endfor %}
 						</li>
 						{% endif %}
-						{% if page.ios or page.android %}
-						<li><strong>Link(s):</strong> {% if page.ios %}<a href="{{ page.ios }}" target="_blank">App Store</a>{% endif %} {% if page.android %}<a href="{{ page.android }}" target="_blank">Google Play Store</a>{% endif %}</li>
+						{% if page.ios or page.android or page.github %}
+						<li><strong>Link(s):</strong> {% if page.ios %}<a href="{{ page.ios }}" target="_blank">App Store</a>{% endif %} {% if page.android %}<a href="{{ page.android }}" target="_blank">Google Play Store</a>{% endif %} {% if page.github %}<a href="{{ page.github }}" target="_blank">Github Repo</a>{% endif %}</li>
 						{% endif %}
 					</ul>
 				</div>
