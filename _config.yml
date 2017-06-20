@@ -1,8 +1,19 @@
 title: 'Anas Iqbal, Game Programmer'
 description: 'Portfolio of Anas Iqbal, Game Programmer from Pakistan'
-author: Anas Iqbal
 url: 'https://anasiqbal.github.io'
+email: anasiqbal@outlook.com
 logo: /assets/images/AI-Icon.jpg
+
+author:
+  name: Anas Iqbal
+  email: anasiqbal@outlook.com
+  twitter: ianasiqbal
+  facebook: anas.iqbal55
+  github: anasiqbal
+  linkedin: in/anasiqbal55
+  spotify: anasiqbal
+  udemy: anas-iqbal-2
+  steam: anasiqbal
 
 twitter:
   username: ianasiqbal
@@ -18,7 +29,8 @@ social:
     - 'https://open.spotify.com/user/anasiqbal'
     - 'https://www.udemy.com/user/anas-iqbal-2'
 
-discus_shortname: anasiqbal
+comments:
+  discus: anasiqbal
 
 webmaster_verifications:
   google: n73NqY4YkDgmZyZzCJk6U_61k7hN0qcPe3jM64OY90M
@@ -34,6 +46,7 @@ gems:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-mentions
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
