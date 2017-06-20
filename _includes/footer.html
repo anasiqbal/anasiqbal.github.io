@@ -3,8 +3,8 @@
 		<footer>
 			<ul>
 				<li>&copy; {{ 'now' | date: "%Y" }} <a href="/">{{ site.title }}</a>. All rights reserved.</li>
-				<li><a href="tel:{{ site.phone }}" target="_blank"><i class="fa fa-envelope-o"></i> {{ site.phone }}</a></li>
-				<li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope-o"></i> {{ site.email }}</a></li>
+				<li><a href="tel:{{ site.data.personalinfo.phone }}" target="_blank"><i class="fa fa-envelope-o"></i> {{ site.phone }}</a></li>
+				<li><a href="mailto:{{ site.data.personalinfo.email }}"><i class="fa fa-envelope-o"></i> {{ site.email }}</a></li>
 				
 				<!-- *****************************************************************************************
 				The "Powered by Type & Grids" link in the footer is required in the Free version
@@ -14,10 +14,10 @@
 				
 			</ul>
 			<div class="social-icons">
-				<a href="{{ site.linkedin }}" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
-				<a href="{{ site.github_url }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
-				<a href="{{ site.stackoverflow }}" target="_blank"><i class="fa fa-stack-overflow fa-2x"></i></a>
-				<a href="{{ site.twitter }}" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+				<a href="{{ site.data.personalinfo.linkedin }}" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+				<a href="{{ site.data.personalinfo.github_url }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+				<a href="{{ site.data.personalinfo.stackoverflow }}" target="_blank"><i class="fa fa-stack-overflow fa-2x"></i></a>
+				<a href="{{ site.data.personalinfo.twitter }}" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
 			</div>
 		</footer>
 	</div>

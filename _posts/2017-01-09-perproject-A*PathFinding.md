@@ -2,7 +2,7 @@
 layout:			post
 title:			"A* Pathfinding"
 logo:			"A*/icon.jpg"
-description:	"This is temp description."
+excerpt:		"This is temp description."
 role:			"--"
 organization:	"--"
 github:			"https://github.com/anasiqbal/Simple-A-Pathfinding"
