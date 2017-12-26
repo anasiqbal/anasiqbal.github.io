@@ -8,7 +8,7 @@ role:			"Software Engineer"
 organization:	"Binex Solutions (Pvt.) Ltd."
 ios:			"https://itunes.apple.com/tr/app/id943362434"
 android:		"https://play.google.com/store/apps/details?id=com.readablenglish.WhatsChanged"
-professional:	true
+
 screenshots:
 - REWC/01.jpeg
 - REWC/02.jpeg
@@ -16,7 +16,7 @@ screenshots:
 - REWC/04.jpeg
 - REWC/05.jpeg
 tag:
-- Unity 3D 
+- Unity 3D
 - C#
 - iOS
 - NGUI

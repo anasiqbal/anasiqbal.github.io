@@ -1,11 +1,15 @@
-name: Anas Iqbal
-designation: Game Programmer
-phone: '+923415188021'
-email: anasiqbal@outlook.com
-twitter: 'http://www.twitter.com/ianasiqbal'
-linkedin: 'https://www.linkedin.com/in/anasiqbal55'
-github_url: 'https://github.com/anasiqbal'
-stackoverflow: 'http://stackoverflow.com/users/1849539/anas-iqbal'
-steam: 'http://steamcommunity.com/id/anasiqbal'
-spotify: 'https://open.spotify.com/user/anasiqbal'
-udemy: 'https://www.udemy.com/user/anas-iqbal-2'
+name            : Anas Iqbal
+avatar          : "/assets/images/bio-photo.jpeg"
+designation     : Software Engineer (Gameplay)
+phone           : "+923415188021"
+email           : anasiqbal@outlook.com
+location        : "Islamabad - Pakistan"
+resume          : "/assets/files/resume.pdf"
+facebook        : "https://www.facebook.com/anas.iqbal55"
+twitter         : "http://www.twitter.com/ianasiqbal"
+linkedin        : "https://www.linkedin.com/in/anasiqbal55"
+github          : "https://github.com/anasiqbal"
+stackoverflow   : "http://stackoverflow.com/users/1849539/anas-iqbal"
+steam           : "http://steamcommunity.com/id/anasiqbal"
+spotify         : "https://open.spotify.com/user/anasiqbal"
+udemy           : "https://www.udemy.com/user/anas-iqbal-2"

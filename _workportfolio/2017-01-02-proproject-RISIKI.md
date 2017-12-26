@@ -8,7 +8,7 @@ role:			"Software Engineer"
 organization:	"Binex Solutions (Pvt.) Ltd."
 ios:			"https://itunes.apple.com/tr/app/id919855900"
 android:		"https://play.google.com/store/apps/details?id=com.readablenglish.dictionary"
-professional:	true
+
 screenshots:
 - RISIKI/01.jpeg
 - RISIKI/02.jpeg
@@ -30,4 +30,3 @@ comments: true
 * Sole UI programmer for complete iOS version of the application.
 * Integrated core data with SqLite database.
 * Integrated SOAP web-service developed by the another team working offshore in Australia.
-

@@ -7,14 +7,14 @@ description:	"This is temp description."
 role:			"Software Engineer"
 organization:	"Binex Solutions (Pvt.) Ltd."
 ios:			"https://itunes.apple.com/pk/app/id992769295"
-professional:	true
+
 screenshots:
 - ACA/01.jpeg
 - ACA/02.jpeg
 - ACA/03.jpeg
 - ACA/04.jpeg
 tag:
-- Unity 3D 
+- Unity 3D
 - C#
 - iOS
 - Unity UI

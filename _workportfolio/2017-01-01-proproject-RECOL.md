@@ -8,13 +8,13 @@ role:			"Software Engineer"
 organization:	"Binex Solutions (Pvt.) Ltd."
 ios:			"https://itunes.apple.com/tr/app/id922404744"
 android:		"https://play.google.com/store/apps/details?id=com.readablenglish.ChooseOrLose"
-professional:	true
+
 screenshots:
 - RECOL/01.jpeg
 - RECOL/02.jpeg
 - RECOL/03.jpeg
 tag:
-- Unity 3D 
+- Unity 3D
 - C#
 - NGUI
 - iOS

@@ -8,14 +8,14 @@ role:			"Software Engineer"
 organization:	"Binex Solutions (Pvt.) Ltd."
 ios:			"https://itunes.apple.com/pk/app/id1086899953"
 android:		"https://play.google.com/store/apps/details?id=com.binexsolutions.pinned"
-professional:	true
+
 screenshots:
 - GOP/01.jpeg
 - GOP/02.jpeg
 - GOP/03.jpeg
 - GOP/04.jpeg
 tag:
-- Unity 3D 
+- Unity 3D
 - C#
 - Unity UI
 - iOS

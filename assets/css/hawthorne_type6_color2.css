@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
 /*==================================================================================================
 Foundation Variables
 ==================================================================================================*/
@@ -39,33 +39,6 @@ Mixins
 /*==================================================================================================
 Blog
 ==================================================================================================*/
-
-/* custom style start */
-div.social-icons {
-  text-align: center;
-}
-
-div.social-icons i {
-  padding-left: 0.25em;
-  padding-right: 0.25em;
-  color: #4a585e;
-}
-
-div.social-icons a:hover i {
-  color: #5b8aa0;
-  -webkit-transition: color 0.2s ease-out;
-  -moz-transition: color 0.2s ease-out;
-  transition: color 0.2s ease-out;
-}
-
-div.social-icons a i {
-  -webkit-transition: color 0.2s ease-out;
-  -moz-transition: color 0.2s ease-out;
-  transition: color 0.2s ease-out;
-}
-
-/* custom style end */
-
 /* line 28, ../scss/master/_blog.scss */
 aside.blog-sidebar h5 {
   text-align: center;
@@ -2333,7 +2306,7 @@ label.error {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 60rem;
+  max-width: 70.5625rem;
   *zoom: 1;
 }
 /* line 165, ../bower_components/foundation/scss/foundation/components/_global.scss */

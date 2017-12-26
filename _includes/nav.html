@@ -1,25 +1,21 @@
-<div class="top-border"></div>
-
-<div class="row">
-	<div class="small-12 medium-12 large-12 small-centered columns">
-		<header>		
-			<h1><a href="index.html">{{ site.data.personalinfo.name }}</a></h1>
-			<h2><a href="index.html">{{ site.data.personalinfo.designation }}</a></h2>
-			<!--
-			<div class="logo">
-				<a href="index.html"><img src="img/logo.png" alt="Your Name Here" /></a>
-			</div>
-			-->
-		</header>
-	</div>
-	<div class="small-12 medium-12 large-12 small-centered columns">
-		<nav>
-			<ul class="inline-list-custom">
-				<li><a href="/" {% if page.title == 'about' %} class="current" {% endif %}>About</a></li>
-				<li><a href="/work/professional/" {% if page.title == 'work' %} class="current" {% endif %}>Work</a></li>
-				<li><a href="/work/personal/" {% if page.title == 'sideprojects' %} class="current" {% endif %}>Side Projects</a></li>
-				<li><a href="/assets/files/AI_Resume_v2.pdf" target="_blank">R&eacute;sum&eacute;</a></li>
-			</ul>
-		</nav>
-	</div>
+<div class="small-12 medium-12 large-12 small-centered columns">
+	<header>
+		<h1><a href="/">{{ site.data.personalinfo.name }}</a></h1>
+		<h2><a href="/">{{ site.data.personalinfo.designation }}</a></h2>
+		<!--
+		<div class="logo">
+			<a href="index.html"><img src="img/logo.png" alt="Your Name Here" /></a>
+		</div>
+		-->
+	</header>
+</div>
+<div class="small-12 medium-12 large-12 small-centered columns">
+	<nav>
+		<ul class="inline-list-custom">
+			<li><a href="/" {% if page.navid == 'about' %} class="current" {% endif %}>About</a></li>
+			<li><a href="/work/" {% if page.navid == 'work' %} class="current" {% endif %}>Work</a></li>
+			<li><a href="/sideprojects/" {% if page.navid == 'sideprojects' %} class="current" {% endif %}>Side Projects</a></li>
+			<li><a href="/assets/files/resume.pdf" target="_blank">R&eacute;sum&eacute;</a></li>
+		</ul>
+	</nav>
 </div>

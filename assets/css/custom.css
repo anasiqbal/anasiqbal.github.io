@@ -1,0 +1,44 @@
+
+div.social-icons {
+	text-align: center;
+}
+
+div.social-icons i {
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	color: #262422;
+}
+
+div.social-icons a i {
+	-webkit-transition: color 0.2s ease-out;
+	-moz-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;
+}
+
+div.social-icons a:hover i {
+	color: #605b55;
+	-webkit-transition: color 0.2s ease-out;
+	-moz-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+#profilesidebar {
+	/* position: -webkit-sticky;  // required for Safari */
+    position: sticky;
+    top: 0;
+
+	margin: auto;
+}
+
+#profilesidebar img {
+	max-width: 200px;
+}
+
+.lined-list .custom-lined-list li {
+	padding-bottom: 0;
+	border: 0;
+}
