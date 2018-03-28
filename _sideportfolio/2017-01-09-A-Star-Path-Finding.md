@@ -1,7 +1,7 @@
 ---
 layout:			post
 title:			"A* Pathfinding"
-logo:			"A*/icon.jpg"
+logo:			"Astar/icon.jpg"
 excerpt:		""
 role:			"--"
 organization:	"--"
