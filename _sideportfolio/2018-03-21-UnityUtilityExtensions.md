@@ -7,9 +7,6 @@ role:			"--"
 organization:	"--"
 github:			"https://github.com/anasiqbal/Unity-UtilityExtensions"
 
-screenshots:
-- UUE/lambert_ambient_specular_vertex.png
-
 tag:
 - Unity 3D
 - C#
