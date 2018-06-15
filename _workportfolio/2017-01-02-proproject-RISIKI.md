@@ -1,7 +1,7 @@
 ---
 layout:			post
 title:			"Read It, Speak It, Know It"
-date:			2016-04-06
+date:			2017-01-02
 logo:			"RISIKI/icon.jpeg"
 description:	"This is temp description."
 role:			"Software Engineer"

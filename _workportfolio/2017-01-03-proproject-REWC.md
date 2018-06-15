@@ -1,7 +1,7 @@
 ---
 layout:			post
 title:			"What's Changed?"
-date:			2016-04-06
+date:			2017-01-03
 logo:			"REWC/icon.jpeg"
 description:	"This is temp description."
 role:			"Software Engineer"

@@ -1,7 +1,7 @@
 ---
 layout:			post
 title:			"Game of Pins"
-date:			2016-04-06
+date:			2017-01-06
 logo:			"GOP/icon.jpeg"
 description:	"This is temp description."
 role:			"Software Engineer"

@@ -1,42 +1,31 @@
-title               : "Anas Iqbal"
-description         : "Portfolio of Anas Iqbal, Software Engineer (Gameplay) from Pakistan"
+title               : "Anas Iqbal | Game Programmer Portfolio"
+description         : "Game Developer Portfoio of Anas Iqbal, a passionate proffessional "
 url                 : "https://anasiqbal.github.io"
 logo                : /assets/images/AI-Icon.jpg
 
 author:
   name              : Anas Iqbal
-  avatar            : "/assets/images/bio-photo.jpeg"
+  picture           : "/assets/images/bio-photo.jpeg"
   location          : "Islamabad - Pakistan"
   email             : anasiqbal@outlook.com
-  twitter           : ianasiqbal
-  facebook          : anas.iqbal55
   github            : anasiqbal
   linkedin          : anasiqbal55
   stackoverflow     : "1849539/anas-iqbal"
-  spotify           : anasiqbal
-  udemy             : anas-iqbal-2
   steam             : anasiqbal
 
 twitter:
   username          : ianasiqbal
-facebook:
-  username          :
-  app_id            :
-  publisher         :
-og_image            : # Open Graph/Twitter default site image
+  card              : summary
 
 social:
-  type              : Person
   name              : Anas Iqbal
   links:
-    - "https://www.facebook.com/anas.iqbal55"
-    - "http://www.twitter.com/ianasiqbal"
-    - "https://www.linkedin.com/in/anasiqbal55"
-    - "https://github.com/anasiqbal"
-    - "http://stackoverflow.com/users/1849539/anas-iqbal"
-    - "http://steamcommunity.com/id/anasiqbal"
-    - "https://open.spotify.com/user/anasiqbal"
-    - "https://www.udemy.com/user/anas-iqbal-2"
+    - https://www.facebook.com/anas.iqbal55
+    - http://www.twitter.com/ianasiqbal4
+    - https://www.linkedin.com/in/anasiqbal55
+    - https://github.com/anasiqbal
+    - http://stackoverflow.com/users/1849539/anas-iqbal
+    - http://steamcommunity.com/id/anasiqbal
 
 comments:
   discus: anasiqbal
@@ -65,19 +54,18 @@ kramdown:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jemoji
 
 # Collections
 collections:
   artportfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: pretty
   workportfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: pretty
   sideportfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: pretty
 
 include:
   - _pages

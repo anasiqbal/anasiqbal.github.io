@@ -1,7 +1,7 @@
 ---
 layout:			post
 title:			"Readable English - Choose or Lose"
-date:			2016-04-06
+date:			2017-01-01
 logo:			"RECOL/icon.jpeg"
 description:	"This is temp description."
 role:			"Software Engineer"
