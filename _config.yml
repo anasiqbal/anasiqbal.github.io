@@ -59,13 +59,13 @@ plugins:
 collections:
   artportfolio:
     output: true
-    permalink: pretty
+    permalink: /:collection/:name
   workportfolio:
     output: true
-    permalink: pretty
+    permalink: /:collection/:name
   sideportfolio:
     output: true
-    permalink: pretty
+    permalink: /:collection/:name
 
 include:
   - _pages

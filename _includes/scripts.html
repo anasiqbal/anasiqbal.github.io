@@ -1,4 +1,54 @@
-<script src="/assets/js/vendor/modernizr.js"></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="/assets/js/foundation.min.js"></script>
-<script src="/assets/js/hawthorne.js"></script>
+<script src="/assets/js/vendor/modernizr.js" type="text/javascript"></script>
+<script src="/assets/js/foundation.min.js" type="text/javascript"></script>
+<script src="/assets/js/hawthorne.js" type="text/javascript"></script>
+<script src="/assets/js/jquery_gridly/jquery.gridly.js" type="text/javascript"></script>
+
+<script>
+    
+    $('.gridly_portfolio').gridly ({
+        base: 200, // px
+        gutter: 20, // px
+        columns: 5
+    });
+    $('.gridly_portfolio').gridly('draggable', 'off');
+    
+    
+    $('.gridly_screenshots').gridly ({
+        base: 200, // px
+        gutter: 20, // px
+        columns: 5
+    });
+    $('.gridly_screenshots').gridly('draggable', 'off');
+    
+    $('.gridly_videos').gridly ({
+        base: 500, // px
+        gutter: 20, // px
+        columns: 2
+    });
+    $('.gridly_videos').gridly('draggable', 'off');
+    
+//    $(document).on("click touchend", ".gridly_screenshots .brick", function(event) {
+//        var $this, width, height;
+//        event.preventDefault();
+//        event.stopPropagation();
+//        $this = $(this);
+//        $this.toggleClass('small');
+//        $this.toggleClass('large');
+//        
+//        if ($this.hasClass('small'))
+//        {
+//            width = 200;
+//            height = 200;
+//        }
+//        if ($this.hasClass('large'))
+//        {
+//            width = 200;
+//            height = 520;
+//        }
+//        $this.data('width', width);
+//        $this.data('height', height);
+//        return $('.gridly_screenshots').gridly('layout');
+//    });
+</script>
