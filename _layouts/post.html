@@ -2,70 +2,83 @@
 layout: default
 ---
 
-<div class="small-12 medium-7 large-7 columns">
-	<h2>{{ page.title }}</h2>
-	<p>
-		{{ page.content }}
-	</p>
-</div>
-<div class="small-12 medium-5 large-5 columns">
-	<div class="lined-list">
-		<ul>
-			<li><strong>Role:</strong> {{ page.role }}</li>
-			<li><strong>Organization:</strong> {{ page.organization }}</li>
+<!-- +++++ Projects Section +++++ -->
+
+<div class="container pt">
+	<div class="row mt">
+		<div class="col-lg-6 col-lg-offset-3">
+			<h3>{{ page.title }}
+<!--				<br/><span class="subHead"><em>{{ page.date | date: '%B %d, %Y' }}</em></span>-->
+			</h3>
+			<hr>
+			<h5>Find it on:</h5>
+			<p>
+				{% if page.ios or page.android or page.github or page.itchio %}
+					{% if page.ios %}
+				<a href="{{ page.ios }}" target="_blank"><img src="/assets/images/storeicons/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" height="35px" /></a>
+					{% endif %}
+					{% if page.android %}
+				<a href="{{ page.android }}" target="_blank"><img src="/assets/images/storeicons/google-play-badge.png" height="50px" /></a>
+					{% endif %}
+					{% if page.github %}
+				<a href="{{ page.github }}" target="_blank"><img src="/assets/images/storeicons/GitHub_Logo.png" height="50px" /></a>
+					{% endif %}
+					{% if page.itchio %}
+				{{ page.itchio }}
+					{% endif %}
+				{% endif %}
+			</p>
+			<p>{{ page.content }}</p>
 			{% if page.tag %}
-			<li>
-				<strong>Tag:</strong>&nbsp;
-				{% for tag in page.tags %}
+			<p>
+				<small>
+					<strong>Tag:</strong>&nbsp;
+					{% for tag in page.tags %}
 					<i>{{ tag }}</i>
-				{% unless forloop.last %}
-				-
-				{% endunless %}
+						{% unless forloop.last %}
+					,&nbsp;
+						{% endunless %}
+					{% endfor %}
+				</small>
+			</p>
+			{% endif %}
+		</div>
+<!--
+		<div class="col-lg-4">
+			{% if page.videos %}
+				{% for video in page.videos %}
+			<iframe src="{{ video }}" width="512" height="288" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				{% endfor %}
-			</li>
 			{% endif %}
-			{% if page.ios or page.android or page.github %}
-			<li><strong>Link(s):</strong> {% if page.ios %}<a href="{{ page.ios }}" target="_blank">App Store</a>{% endif %} {% if page.android %}<a href="{{ page.android }}" target="_blank">Google Play Store</a>{% endif %} {% if page.github %}<a href="{{ page.github }}" target="_blank">Github Repo</a>{% endif %}</li>
+			
+			{% if page.screenshots %}
+				{% for screen in page.screenshots %}
+			<p><img class="img-responsive" src="/assets/images/projects/{{ screen }}" alt="{{ page.title }} - screenshot"></p>
+				{% endfor %}
 			{% endif %}
-		</ul>
+		</div>
+-->
 	</div>
+	
+	{% if page.videos %}
+	<div class="row mt centered">
+		{% for video in page.videos %}
+		<div class="col-lg-5 col-lg-offset-1">
+			<iframe src="{{ video }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+		{% endfor %}
+	</div>
+	{% endif %}
+	
+	{% if page.screenshots %}
+	<div class="row mt centered">
+		{% for screen in page.screenshots %}
+		<div class="col-lg-2">
+			<img class="img-responsive" src="/assets/images/projects/{{ screen }}" alt="{{ page.title }} - screenshot">
+		</div>
+		{% endfor %}
+	</div>
+	{% endif %}
+	<!-- /row -->
 </div>
-
-<div class="small-12 medium-12 large-12 columns">
-<hr class="project-detail-hr" />
-
-    
-{% if page.screenshots %}
-    <div class="gridly_screenshots">
-	{% for screen in page.screenshots %}
-        <div class="brick small">
-            <img src="/assets/images/projects/{{ screen }}" alt="{{ page.title }} - screenshot" />
-        </div>
-	{% unless forloop.last %}
-	{% endunless %}
-	{% endfor %}
-    </div>
-    
-{% elsif page.videos %}
-    <div class="gridly_videos">
-	{% for video in page.videos %}
-        <div class="brick large">
-            <iframe src="{{ video }}" width="512" height="288" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
-        
-	{% unless forloop.last %}
-	{% endunless %}
-	{% endfor %}
-    </div>
-{% endif %}
-</div>
-<!-- <div class="row"> -->
-<div class="small-12 medium-12 large-12 columns">
-	<p class="back-to-top-holder"><a class="back-to-top"><i class="fa fa-chevron-circle-up fa-3x"></i></a></p>
-</div>
-<!-- </div> -->
-
-<!-- Post Page Content End -->
-{% if page.comments and site.disqus_shortname %}
-<section id="disqus_thread" class="animated fadeInUp"></section>
-{% endif %}
+<!-- /container -->

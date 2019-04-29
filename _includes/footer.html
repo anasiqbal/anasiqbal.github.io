@@ -1,22 +1,49 @@
-<div class="small-12 medium-12 large-12 columns">
-	<footer>
-		<ul>
-			<li>&copy; {{ 'now' | date: "%Y" }} <a href="/">{{ site.data.personalinfo.name }}</a>. All rights reserved.</li>
-			<li><a href="tel:{{ site.data.personalinfo.phone }}" target="_blank"><i class="fa fa-envelope-o"></i> {{ site.data.personalinfo.phone }}</a></li>
-			<li><a href="mailto:{{ site.data.personalinfo.email }}"><i class="fa fa-envelope-o"></i> {{ site.data.personalinfo.email }}</a></li>
+<!-- +++++ Footer Section +++++ -->
 
-			<!-- *****************************************************************************************
-			The "Powered by Type & Grids" link in the footer is required in the Free version
-			typeandgrids.com/pirates -->
-			<li>Powered by <a href="http://www.typeandgrids.com" target="_blank">Type &amp; Grids</a></li>
-			<!--  ************************************************************************************ -->
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h4>My Bunker</h4>
+          <p>
+            <a href="mailto:{{ site.data.personalinfo.email }}">{{ site.data.personalinfo.email }}</a>,<br/><a href="tel:{{ site.data.personalinfo.phone }}">{{ site.data.personalinfo.phone }}</a>, <br/> {{ site.data.personalinfo.location }}.
+          </p>
+        </div>
+        <!-- /col-lg-4 -->
 
-		</ul>
-		<div class="social-icons">
-			<a href="{{ site.data.personalinfo.linkedin }}" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-			<a href="{{ site.data.personalinfo.github }}" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
-			<a href="{{ site.data.personalinfo.stackoverflow }}" target="_blank"><i class="fab fa-stack-overflow fa-2x"></i></a>
-			<a href="{{ site.data.personalinfo.steam }}" target="_blank"><i class="fab fa-steam-square fa-2x"></i></a>
-		</div>
-	</footer>
-</div>
+        <div class="col-lg-4">
+          <h4>My Links</h4>
+          <p>
+            <a href="{{ site.data.personalinfo.linkedin }}">Linked In</a><br/>
+            <a href="{{ site.data.personalinfo.github }}">Github</a><br/>
+            <a href="{{ site.data.personalinfo.stackoverflow }}">Stack Overflow</a>
+          </p>
+        </div>
+        <!-- /col-lg-4 -->
+
+        <div class="col-lg-4">
+          <h4>About {{ site.data.personalinfo.name }}</h4>
+          <p>{{ site.data.personalinfo.oneliner }}</p>
+        </div>
+        <!-- /col-lg-4 -->
+      </div>
+    </div>
+  </div>
+
+  <div id="copyrights">
+    <div class="container">
+      <p>
+        &copy; Copyrights <strong>Stanley</strong>. All Rights Reserved
+      </p>
+      <div class="credits">
+        <!--
+          You are NOT allowed to delete the credit link to TemplateMag with free version.
+          You can delete the credit link only if you bought the pro version.
+          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/stanley-bootstrap-freelancer-template/
+          Licensing information: https://templatemag.com/license/
+        -->
+        Created with Stanley template by <a href="https://templatemag.com/">TemplateMag</a>
+      </div>
+    </div>
+  </div>
+  <!-- / copyrights -->

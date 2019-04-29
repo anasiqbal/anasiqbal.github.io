@@ -1,0 +1,42 @@
+<!-- +++++ Projects Section +++++ -->
+
+<div class="container pt">
+	<div class="row mt">
+		<div class="col-lg-6 col-lg-offset-3 centered">
+			<h3>RECENT PROJECTS</h3>
+			<hr>
+		</div>
+	</div>
+	
+	
+	<div class="row mt centered">
+	{% assign projects = site.sideportfolio | concat:site.workportfolio %}
+	{% for post in projects %}
+		{% if post.recent %}
+		<div class="col-lg-3">
+			<a href="{{ post.url }}"><img class="img-responsive" src="/assets/images/projects/{{ post.logo }}" alt="{{ post.title }}" width="200" height="200" style="margin: auto;" /></a>
+			<p>{{ post.title }}</p>
+		</div>
+		{% endif %}
+	{% endfor %}
+	</div>
+	
+<!--
+	<div class="row mt centered">
+		<div class="col-lg-4">
+			<a href="work01.html"><img class="img-responsive" src="img/portfolio/port01.jpg" alt="" /></a>
+			<p>APE</p>
+		</div>
+		<div class="col-lg-4">
+			<a href="work01.html"><img class="img-responsive" src="img/portfolio/port02.jpg" alt="" /></a>
+			<p>RAIDERS</p>
+		</div>
+		<div class="col-lg-4">
+			<a href="work01.html"><img class="img-responsive" src="img/portfolio/port03.jpg" alt="" /></a>
+			<p>VIKINGS</p>
+		</div>
+	</div>
+-->
+	<!-- /row -->
+</div>
+<!-- /container -->

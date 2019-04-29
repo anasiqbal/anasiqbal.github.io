@@ -13,15 +13,14 @@ author:
   stackoverflow     : "1849539/anas-iqbal"
   steam             : anasiqbal
 
-twitter:
-  username          : ianasiqbal
-  card              : summary
+twitter_username          : ianasiqbal
+github_username           : anasiqbal
 
 social:
   name              : Anas Iqbal
   links:
     - https://www.facebook.com/anas.iqbal55
-    - http://www.twitter.com/ianasiqbal4
+    - http://www.twitter.com/ianasiqbal
     - https://www.linkedin.com/in/anasiqbal55
     - https://github.com/anasiqbal
     - http://stackoverflow.com/users/1849539/anas-iqbal
@@ -53,7 +52,6 @@ kramdown:
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
 
 # Collections
 collections:

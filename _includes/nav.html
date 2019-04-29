@@ -1,21 +1,22 @@
-<div class="small-12 medium-12 large-12 small-centered columns">
-	<header>
-		<h1><a href="/">{{ site.data.personalinfo.name }}</a></h1>
-		<h2><a href="/">{{ site.data.personalinfo.designation }}</a></h2>
-		<!--
-		<div class="logo">
-			<a href="index.html"><img src="img/logo.png" alt="Your Name Here" /></a>
-		</div>
-		-->
-	</header>
-</div>
-<div class="small-12 medium-12 large-12 small-centered columns">
-	<nav>
-		<ul class="inline-list-custom">
-			<li><a href="/" {% if page.navid == 'about' %} class="current" {% endif %}>About</a></li>
-			<li><a href="/work/" {% if page.navid == 'work' %} class="current" {% endif %}>Work</a></li>
-			<li><a href="/sideprojects/" {% if page.navid == 'sideprojects' %} class="current" {% endif %}>Side Projects</a></li>
-			<li><a href="{{ site.data.personalinfo.resume }}" target="_blank">R&eacute;sum&eacute;</a></li>
-		</ul>
-	</nav>
-</div>
+<!-- Static navbar -->
+  <div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">{{ site.data.personalinfo.name }}</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/work/">Work</a></li>
+          <li><a href="/about/">About</a></li>
+<!--          <li><a href="/blog/">Blog</a></li>-->
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
