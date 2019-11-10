@@ -3,15 +3,27 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 centered">
-				<img src="{{ site.data.personalinfo.avatar }}" alt="{{ site.data.personalinfo.name }}" height="155" width="155" style="border-radius: 50%">
+				<img src="{{ site.data.personalinfo.avatar }}" alt="{{ site.data.personalinfo.name }}" height="155"
+					width="155" style="border-radius: 50%">
 				<h1>Hi, I am {{ site.data.personalinfo.name }}!</h1>
-				<p>Gameplay programmer with 4+ years of experience and proficient at programming gameplay mechanics, UI and animations using Unity3D and C#.</p>
-				<p>I am also familiar with other game engines like <i>Unreal Engine</i> and <i>Gamemaker Studio</i> and have worked on variety of game elements including shader scripting, particle effects and game optimization (2D/3D and UI).</p>
-				<a class="linkbullet" href="mailto:{{ site.data.personalinfo.email }}" target="_blank"><i class="fas fa-envelope" style="font-size: 40px"></i></a>
-				<a class="linkbullet" href="mailto:{{ site.data.personalinfo.linkedin }}" target="_blank"><i class="fab fa-linkedin-in" style="font-size: 40px"></i></a>
-				<a class="linkbullet" href="mailto:{{ site.data.personalinfo.github }}" target="_blank"><i class="fab fa-github" style="font-size: 40px"></i></a>
-				<a class="linkbullet" href="mailto:{{ site.data.personalinfo.stackoverflow }}" target="_blank"><i class="fab fa-stack-overflow" style="font-size: 40px"></i></a>
-				<a class="linkbullet" href="mailto:{{ site.data.personalinfo.resume }}" target="_blank"><i class="fas fa-file-alt" style="font-size: 40px"></i></a>
+				<p>Game developer with {{ site.time | date: '%Y' | minus:2014 }}+ years of experience.
+					Proficient at programming gameplay mechanics, UI
+					and animations using Unity3D and C#.</p>
+				<p>I am also familiar with other game engines like <a
+						href="https://www.unrealengine.com/en-US/"><i>Unreal Engine</i></a> and <a
+						href="http://www.monogame.net/"><i>MonoGame</i></a>, and
+					have worked on variety of game elements including shader scripting, particle effects and game
+					optimization (2D/3D and UI).</p>
+				<a class="linkbullet" href="mailto:{{ site.data.personalinfo.email }}" target="_blank"><i
+						class="fas fa-envelope" style="font-size: 40px"></i></a>
+				<a class="linkbullet" href="{{ site.data.personalinfo.linkedin }}" target="_blank"><i
+						class="fab fa-linkedin-in" style="font-size: 40px"></i></a>
+				<a class="linkbullet" href="{{ site.data.personalinfo.github }}" target="_blank"><i
+						class="fab fa-github" style="font-size: 40px"></i></a>
+				<a class="linkbullet" href="{{ site.data.personalinfo.stackoverflow }}" target="_blank"><i
+						class="fab fa-stack-overflow" style="font-size: 40px"></i></a>
+				<a class="linkbullet" href="{{ site.data.personalinfo.resume }}" target="_blank"><i
+						class="fas fa-file-alt" style="font-size: 40px"></i></a>
 			</div>
 			<!-- /col-lg-8 -->
 		</div>
